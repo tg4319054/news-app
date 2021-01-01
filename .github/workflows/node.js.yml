@@ -35,7 +35,7 @@ jobs:
           FTP_SERVER: ${{ secrets.FTP_SERVER }}
           FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
           FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
-          LOCAL_DIR: Users/yutotaga/news-app
+          LOCAL_DIR: news-app
           REMOTE_DIR: /nuxt-news-app
           ARGS: --delete
        
