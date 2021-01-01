@@ -25,8 +25,6 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - name: npm install
       run: npm install
-    - name: test
-      run: npm run test:unit
       
     - name: List output files
       run: ls
