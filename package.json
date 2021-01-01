@@ -1,8 +1,8 @@
 {
   "name": "news-app",
   "version": "1.0.0",
-  "description": "A news application built with NUxt 2 and Firestore",
-  "author": "多賀悠人",
+  "description": "A news application built with Nuxt 2 and Firestore",
+  "author": "Yuto Taga",
   "private": true,
   "scripts": {
     "dev": "nuxt",
