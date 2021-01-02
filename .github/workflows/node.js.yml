@@ -23,8 +23,11 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - name: npm install
-      run: npm install
+
+   - name: Build Project
+      run: |
+      npm install
+      npm run generate --if-present
       
     - name: List output files
       run: ls
@@ -35,7 +38,7 @@ jobs:
           FTP_SERVER: ${{ secrets.FTP_SERVER }}
           FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
           FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
-          LOCAL_DIR: tg4319054/news-app
+          LOCAL_DIR: dist
           REMOTE_DIR: /nuxt-news-app
           ARGS: --delete
        

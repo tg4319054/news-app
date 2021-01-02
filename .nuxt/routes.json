@@ -1,0 +1,30 @@
+[
+  {
+    "name": "login",
+    "path": "/login",
+    "component": "/Users/yutotaga/news-app/pages/login/index.vue",
+    "chunkName": "pages/login/index",
+    "_name": "_282436bc"
+  },
+  {
+    "name": "register",
+    "path": "/register",
+    "component": "/Users/yutotaga/news-app/pages/register/index.vue",
+    "chunkName": "pages/register/index",
+    "_name": "_6fce83e0"
+  },
+  {
+    "name": "headlines-slug",
+    "path": "/headlines/:slug?",
+    "component": "/Users/yutotaga/news-app/pages/headlines/_slug.vue",
+    "chunkName": "pages/headlines/_slug",
+    "_name": "_150e7690"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/yutotaga/news-app/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_21e67e48"
+  }
+]
